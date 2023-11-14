@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ========================================================== 
+                        Image Links
+========================================================== */
+
+/* https://source.unsplash.com/random?night sky */
+/* https://source.unsplash.com/random/?Cryptocurrency&1 */
+/* https://picsum.photos/300/300?random=1 */
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+/* ========================================================== 
+                Variables / Custom Properties
+========================================================== */
+
+/* ========================================================== 
+                            Body
+========================================================== */
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: lightgray;
+	padding-block: 5vh;
+	padding-inline: 5vw;
+}
+
+/* .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+} */
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+.rechteck {
+	height: 40px;
+	width: 40px;
+	background-color: #d9eeec;
+	color: #da9833;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.weiss {
+	height: 40px;
+	width: 40px;
+	color: #64b2cd;
+	background-color: #da9833;
+	border-radius: 50%;
+	border: 2px solid #3c70a4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.umwickeln {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	justify-content: center;
+	justify-items: center;
+	margin-top: 50px;
+}
+
+button {
+	height: 40px;
+	min-width: 100px;
+	background-color: #64b2cd;
+	color: #333;
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
